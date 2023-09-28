@@ -18,14 +18,14 @@ public class MasculinoOuFeminino {
 			
 			if(genero.equalsIgnoreCase("f")){
 				pesoIdeal = 52+(0.75*(altura - 152.4));
-				System.out.println("Se peso ideal È:" +pesoIdeal);
+				System.out.println("Se peso ideal √©:" +pesoIdeal);
 			}else if(genero.equalsIgnoreCase("m")) {
 				pesoIdeal = 52+(0.67*(altura - 152.4));
-				System.out.println("Seu peso ideal È:" +pesoIdeal+"kg");		
+				System.out.println("Seu peso ideal √©:" +pesoIdeal+"kg");		
 			} else {
 				System.out.println("Insira F ou M, masculino ou feminino.");
 			}
-			System.out.print("Deseja continuar 1 para continuar e 2 para n„o continuar? ");
+			System.out.print("Deseja continuar? 1 para continuar e 2 para n√£o continuar. ");
 			resposta = in.next();
 		}while(resposta.equalsIgnoreCase("1"));
 		
