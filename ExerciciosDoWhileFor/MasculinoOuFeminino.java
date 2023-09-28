@@ -18,7 +18,7 @@ public class MasculinoOuFeminino {
 			
 			if(genero.equalsIgnoreCase("f")){
 				pesoIdeal = 52+(0.75*(altura - 152.4));
-				System.out.println("Se peso ideal é:" +pesoIdeal);
+				System.out.println("Se peso ideal é:" +pesoIdeal+"kg");
 			}else if(genero.equalsIgnoreCase("m")) {
 				pesoIdeal = 52+(0.67*(altura - 152.4));
 				System.out.println("Seu peso ideal é:" +pesoIdeal+"kg");		
