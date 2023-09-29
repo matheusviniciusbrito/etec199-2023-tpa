@@ -4,11 +4,11 @@ public class MaisVelhoMaisNovo {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		int anoAtual, maisVelho = -99999, maisNovo = 99999, idadeUsuario;
+		int anoAtual, maisVelho = -99999, maisNovo = 99999, idadeUsuario, i;
 		
 		anoAtual = LocalDate.now().getYear() ;
 		
-		for(int i=1;i<=10;i++) {
+		for(i=1;i<=10;i++) {
 			System.out.print("Digite que ano o "+i+"o usuario nasceu: ");
 			idadeUsuario = in.nextInt();
 			idadeUsuario = anoAtual - idadeUsuario;
