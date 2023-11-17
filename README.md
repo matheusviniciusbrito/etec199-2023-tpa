@@ -8,6 +8,7 @@
 - *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
 - *Estrutura de Repetição*: WHILE, DO WHILE, FOR;
 - Leitura de Informações Externas (uso de Scanner);
+- Vetores e Matrizes;
 
 #
 ### TECNOLOGIA
